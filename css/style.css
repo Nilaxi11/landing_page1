@@ -1,0 +1,274 @@
+/* custom css start */
+.main {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.ff-montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.w-250 {
+  width: 250px;
+}
+
+.lh-1-75 {
+  line-height: 1.75;
+}
+
+.p-7-15 {
+  padding: 7.5px 15px;
+}
+
+.px-7-5 {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.p-6 {
+  padding: 6px;
+}
+
+.ms-20{
+  margin-left: 20px;
+}
+
+.mb-23 {
+  margin-bottom: 23px;
+}
+
+.pb-22 {
+  padding-top: 22.5px;
+  padding-bottom: 22.5px;
+}
+
+.m-10-7 {
+  margin: 10px 7.5px 10px 0px;
+}
+
+.ptb-100 {
+  padding: 100px 0px;
+}
+
+.lh-60 {
+  line-height: 60px;
+}
+
+.w-60 {
+  width: 60px;
+}
+
+.h-60 {
+  height: 60px;
+}
+
+.gray-light-bg {
+  background-color: #f4f4f4;
+}
+
+.red {
+  color: #ed1c24;
+}
+
+.bg-red {
+  background-color: #ed1c24;
+}
+
+.gray {
+  color: #707070;
+}
+
+.bg-ebebeb {
+  background-color: #ebebeb;
+}
+
+.fs-6em {
+  font-size: 6em;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* custom css end */
+
+
+/* website css start */
+
+/* navbar start */
+.navbar .navbar-nav .nav-link,
+.footer-nav-wrap a {
+  color: #ffffff;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.footer-nav-wrap a:hover {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  color: #363232 !important;
+}
+
+.dropdown-menu {
+  display: none;
+  top: 100%;
+  left: 0;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.caret-pos {
+  position: absolute;
+  top: -40px;
+  left: 90px;
+  font-size: 48px;
+}
+
+/* navbar end */
+
+.hero-section {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+    url("../img/imgi_20_hero-bg-2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.download-section {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+    url("../img/imgi_22_bg-image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imageblock-section-img {
+  background-image:
+    linear-gradient(to right, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+    url("../img/imgi_23_bg-image-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  min-height: 550px;
+}
+
+.single-promo-1 span {
+  font-size: 40px;
+  background-image: url(../img/imgi_21_promo-icon-bg.svg);
+  background-size: 85px;
+  padding: 30px;
+  background-repeat: no-repeat;
+  background-position: 45% 30%;
+  color: #01020c;
+}
+
+.single-promo-1 {
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.12);
+}
+
+.single-promo-hover {
+  transition: all .2s ease-out
+}
+
+.single-promo-hover:hover {
+  transform: translateY(-10px);
+}
+
+.caret-icon {
+  top: 0px;
+  left: 20%;
+}
+
+sup {
+  font-size: 27px;
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+}
+
+.google-play-btn:hover {
+  border: 1px solid white !important;
+  color: #ffffff !important;
+  background: transparent !important;
+}
+
+.app-store-btn:hover {
+  color: black !important;
+  background-color: #ffffff;
+}
+
+.cart-btn:hover {
+  border: 1px solid #ed1c24;
+  border-radius: 30px !important;
+  transition: all ease-in-out 0.3s;
+  color: #ed1c24 !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background-color: #ed1c24 !important;
+}
+
+.form-control {
+  height: calc(2.85em + .75rem + 2px);
+}
+
+.form-control .placeholder {
+  color: #ebebeb;
+}
+
+.button-pill:hover {
+  background-color: black;
+}
+
+.footer-top {
+  padding: 5.625rem 0;
+}
+
+.feature-tab-icon {
+  width: 60px;
+  height: 60px;
+  border: 4px solid #ebebeb;
+}
+
+.feature-tab-icon i {
+  transform: translate(10px, 14px);
+  font-size: 26px;
+  color: #01020c;
+  transition: all 0.3s ease;
+}
+
+.nav-tab-link.active .feature-tab-icon {
+  background-color: #ed1c24 !important;
+
+}
+
+.nav-tab-link.active .feature-tab-icon i {
+  color: #ffffff !important;
+}
+
+/* website css end */
